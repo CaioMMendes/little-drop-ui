@@ -1,0 +1,4 @@
+{
+  "extends": "@caiom-ui/ts-config/base.json",
+  "include": ["src"]
+}

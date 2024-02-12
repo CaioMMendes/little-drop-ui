@@ -1,5 +1,5 @@
 {
-  "name": "@caiom-ui/react",
+  "name": "@little-drop-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -15,9 +15,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@caiom-ui/eslint-config": "*",
-    "@caiom-ui/tokens": "*",
-    "@caiom-ui/ts-config": "*",
+    "@little-drop-ui/eslint-config": "*",
+    "@little-drop-ui/tokens": "*",
+    "@little-drop-ui/ts-config": "*",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "autoprefixer": "^10.4.17",

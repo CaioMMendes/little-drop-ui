@@ -1,7 +1,9 @@
+import { themes } from "@storybook/theming";
 import type { Preview } from "@storybook/react";
 
+import "@little-drop-ui/react/dist/output.css";
 
-import '@caiom-ui/react/dist/output.css'
+//Todo Arrumar a fonte, acho que não ta carregando a fonte roboto no preview
 
 const preview: Preview = {
   parameters: {
@@ -11,6 +13,9 @@ const preview: Preview = {
         color: /(background|color)$/i,
         date: /Date$/i,
       },
+    },
+    docs: {
+      theme: themes.dark,
     },
   },
 };

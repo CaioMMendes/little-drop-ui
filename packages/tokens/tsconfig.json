@@ -1,4 +1,4 @@
 {
-  "extends": "@caiom-ui/ts-config/base.json",
+  "extends": "@little-drop-ui/ts-config/base.json",
   "include": ["src"]
 }

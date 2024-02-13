@@ -4,10 +4,13 @@ import { twMerge } from "tailwind-merge";
 /**
  * Primary UI component for user interaction
  */
-export interface BoxProps
-  extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+
+export type BoxProps = DetailedHTMLProps<
+  HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+> & {
   variant?: "primary" | "secondary" | "tertiary";
-}
+};
 
 export const Box = forwardRef<HTMLDivElement, BoxProps>(
   ({ className, variant = "primary", children, ...rest }, ref) => {

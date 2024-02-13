@@ -4,13 +4,12 @@ import { twMerge } from "tailwind-merge";
 /**
  * Primary UI component for user interaction
  */
-export interface ButtonProps
-  extends DetailedHTMLProps<
-    ButtonHTMLAttributes<HTMLButtonElement>,
-    HTMLButtonElement
-  > {
+export type ButtonProps = DetailedHTMLProps<
+  ButtonHTMLAttributes<HTMLButtonElement>,
+  HTMLButtonElement
+> & {
   variant?: "primary" | "secondary" | "tertiary";
-}
+};
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, disabled = false, variant, ...props }, ref) => {

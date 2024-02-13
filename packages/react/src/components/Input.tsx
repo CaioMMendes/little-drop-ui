@@ -6,22 +6,22 @@ import {
 } from "react";
 import { twMerge } from "tailwind-merge";
 
-export interface InputProps extends ComponentPropsWithoutRef<"input"> {
+export type InputProps = ComponentPropsWithoutRef<"input"> & {
   error?: boolean;
-}
+};
 
-export interface InputContainerProps extends ComponentPropsWithoutRef<"div"> {
+export type InputContainerProps = ComponentPropsWithoutRef<"div"> & {
   error?: boolean;
   errorMessage?: string;
   errorNoWrap: boolean;
-}
+};
 
-export interface InputLabelProps extends ComponentPropsWithoutRef<"label"> {
+export type InputLabelProps = ComponentPropsWithoutRef<"label"> & {
   children: ReactNode;
-}
-export interface InputLabelTextProps extends ComponentPropsWithoutRef<"p"> {
+};
+export type InputLabelTextProps = ComponentPropsWithoutRef<"p"> & {
   children: ReactNode;
-}
+};
 
 const Input = forwardRef(
   (

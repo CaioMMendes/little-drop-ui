@@ -6,23 +6,22 @@ import {
 } from "react";
 import { twMerge } from "tailwind-merge";
 
-export interface TextAreaProps extends ComponentPropsWithoutRef<"textarea"> {
+export type TextAreaProps = ComponentPropsWithoutRef<"textarea"> & {
   error?: boolean;
-}
+};
 
-export interface TextAreaContainerProps
-  extends ComponentPropsWithoutRef<"div"> {
+export type TextAreaContainerProps = ComponentPropsWithoutRef<"div"> & {
   error?: boolean;
   errorMessage?: string;
   errorNoWrap: boolean;
-}
+};
 
-export interface TextAreaLabelProps extends ComponentPropsWithoutRef<"label"> {
+export type TextAreaLabelProps = ComponentPropsWithoutRef<"label"> & {
   children: ReactNode;
-}
-export interface TextAreaLabelTextProps extends ComponentPropsWithoutRef<"p"> {
+};
+export type TextAreaLabelTextProps = ComponentPropsWithoutRef<"p"> & {
   children: ReactNode;
-}
+};
 
 const TextArea = forwardRef(
   (

@@ -1,8 +1,11 @@
 {
   "name": "@little-drop-ui/react",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
-  "main": "./dist/index.js",
+  "main": "src/index.tsx",
+  "files": [
+    "src/**/*"
+  ],
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {

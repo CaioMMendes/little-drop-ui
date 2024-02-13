@@ -1,36 +1,9 @@
-import { ButtonHTMLAttributes, DetailedHTMLProps } from 'react'
-import { twMerge } from 'tailwind-merge'
+/* eslint-disable react-refresh/only-export-components */
 
-/**
- * Primary UI component for user interaction
- */
-export interface ButtonProps
-  extends DetailedHTMLProps<
-    ButtonHTMLAttributes<HTMLButtonElement>,
-    HTMLButtonElement
-  > {
-  size?: 'sm' | 'md'
-  variant?: 'primary' | 'secondary' | 'tertiary'
-}
-
-export const Button = ({
-  className,
-  size = 'sm',
-  variant = 'primary',
-  ...rest
-}: ButtonProps) => {
-  console.log(variant)
-  return (
-    <button
-      className={twMerge(
-        'flex items-center justify-center  rounded-full px-4  py-2 text-3xl',
-        className,
-        size === 'sm' ? 'h-9' : 'h-12',
-        variant === 'primary' && 'bg-onyx-600 text-slate-100',
-        variant === 'secondary' && 'bg-red-500 text-black',
-        variant === 'tertiary' && 'bg-orange-500 text-green-400',
-      )}
-      {...rest}
-    />
-  )
-}
+export * from "./components/Button";
+export * from "./components/Box";
+export * from "./components/Heading";
+export * from "./components/Avatar";
+export * from "./components/Input";
+export * from "./components/TextArea";
+export * from "./components/Checkbox";

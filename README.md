@@ -1,5 +1,4 @@
 
-- [ ] Text
 - [ ] Heading
 - [ ] Box
 - [ ] Button

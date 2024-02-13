@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from "@storybook/react";
 import { Box, BoxProps } from "@little-drop-ui/react";
 
 export default {
-  title: "Box",
+  title: "surfaces/Box",
   component: Box,
   args: {
     children: <p>Lorem ipsum dolor sit amet.</p>,

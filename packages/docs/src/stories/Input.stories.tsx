@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from "@storybook/react";
 import { Input, InputProps } from "@little-drop-ui/react";
 
 export default {
-  title: "Data display/Input",
+  title: "form/Input",
   component: Input,
   args: {
     placeholder: "Digite alguma coisa...",

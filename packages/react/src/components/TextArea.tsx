@@ -110,3 +110,8 @@ const TextAreaLabelText = ({
 };
 
 export { TextArea, TextAreaContainer, TextAreaLabelText, TextAreaLabel };
+
+TextArea.displayName = "TextArea";
+TextAreaContainer.displayName = "TextAreaContainer";
+TextAreaLabelText.displayName = "TextAreaLabelText";
+TextAreaLabel.displayName = "TextAreaLabel";

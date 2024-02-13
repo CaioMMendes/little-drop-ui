@@ -8,7 +8,7 @@ import {
 import type { Meta, StoryObj } from "@storybook/react";
 
 export default {
-  title: "Data display/TextAreaWithContainer",
+  title: "form/TextAreaWithContainer",
   component: TextAreaContainer,
 } as Meta<TextAreaContainerProps>;
 

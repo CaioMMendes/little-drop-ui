@@ -56,8 +56,9 @@ const AvatarFallback = ({
     </AvatarFallbackRadix>
   );
 };
-Avatar.displayName = "Avatar";
-// Avatar.Image = AvatarImage;
-// Avatar.Fallback = AvatarFallback;
 
 export { Avatar, AvatarImage, AvatarFallback };
+
+Avatar.displayName = "Avatar";
+AvatarImage.displayName = "AvatarImage";
+AvatarFallback.displayName = "AvatarFallback";

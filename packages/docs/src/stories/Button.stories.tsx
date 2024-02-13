@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from "@storybook/react";
 import { Button, ButtonProps } from "@little-drop-ui/react";
 
 export default {
-  title: "Button",
+  title: "form/Button",
   component: Button,
   args: {
     children: "Submit",

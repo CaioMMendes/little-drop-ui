@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from "@storybook/react";
 import { Checkbox, CheckboxProps } from "@little-drop-ui/react";
 
 export default {
-  title: "Checkbox",
+  title: "form/Checkbox",
   component: Checkbox,
 } as Meta<CheckboxProps>;
 

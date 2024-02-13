@@ -102,3 +102,8 @@ const InputLabelText = ({
 };
 
 export { Input, InputContainer, InputLabelText, InputLabel };
+
+Input.displayName = "Input";
+InputContainer.displayName = "InputContainer";
+InputLabelText.displayName = "InputLabelText";
+InputLabel.displayName = "InputLabel";

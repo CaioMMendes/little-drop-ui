@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from "@storybook/react";
 import { Heading, HeadingProps } from "@little-drop-ui/react";
 
 export default {
-  title: "Heading",
+  title: "typography/Heading",
   component: Heading,
   args: {
     children: "Lorem ipsum dolor sit amet.",

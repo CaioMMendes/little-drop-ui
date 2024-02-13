@@ -8,7 +8,7 @@ import {
 import type { Meta, StoryObj } from "@storybook/react";
 
 export default {
-  title: "Data display/InputWithContainer",
+  title: "form/InputWithContainer",
   component: InputContainer,
 } as Meta<InputContainerProps>;
 

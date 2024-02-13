@@ -17,9 +17,10 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <button
         className={twMerge(
-          "flex items-center justify-center  rounded-full px-4  py-2 text-3xl",
+          "flex items-center justify-center  rounded-lg px-4  py-2 text-base ",
           className,
-          variant === "primary" && "bg-onyx-600 text-slate-100",
+          variant === "primary" &&
+            "bg-onyx-600 text-slate-100 hover:bg-onyx-400",
           variant === "secondary" && "bg-red-500 text-black",
           variant === "tertiary" && "bg-orange-500 text-green-400",
         )}
@@ -29,5 +30,8 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     );
   },
 );
-Button.displayName = "Button";
 export { Button };
+
+//Serve para aparecer em alguns lugares o nome do componente do lugar de button
+//Como por exemplo no react-dev-tools
+Button.displayName = "Button";

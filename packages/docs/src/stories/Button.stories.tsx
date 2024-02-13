@@ -6,6 +6,24 @@ export default {
   component: Button,
   args: {
     children: "Submit",
+    variant: "primary",
+    disabled: false,
+  },
+  argTypes: {
+    variant: {
+      options: ["primary", "secondary", "tertiary"],
+      control: {
+        type: "inline-radio",
+      },
+    },
+    disabled: {
+      control: {
+        type: "boolean",
+      },
+    },
+    onclick: {
+      action: "click",
+    },
   },
 } as Meta<ButtonProps>;
 

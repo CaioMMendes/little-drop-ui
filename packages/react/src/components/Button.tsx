@@ -18,9 +18,9 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       <button
         disabled
         className={twMerge(
-          "flex items-center justify-center  rounded-lg px-4  py-2 text-base ",
+          "flex items-center justify-center   rounded-lg px-4  py-2 text-base ",
           className,
-          disabled && "opacity-70",
+          disabled && "opacity-70 hover:bg-onyx-600",
           variant === "primary" &&
             "bg-onyx-600 text-slate-100 hover:bg-onyx-400",
           variant === "secondary" && "bg-red-500 text-black",
